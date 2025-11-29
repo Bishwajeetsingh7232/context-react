@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.glass-card {
+  @apply rounded-2xl p-5 shadow-lg transition-all
+         bg-white/95 border border-slate-200
+         dark:bg-slate-900/80 dark:border-slate-800;
+}
